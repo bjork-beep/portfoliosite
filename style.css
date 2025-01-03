@@ -19,6 +19,7 @@
 }
 
 /**** fonte
+Hentet fra Google Fonts
 h1 og h2:
 font-family: "Italiana", serif;
 
@@ -41,7 +42,6 @@ img {
 html {
   background-color: var(--secondary);
 }
-
 /** fonte **/
 
 h1 {
@@ -61,32 +61,70 @@ h4 {
 /**** menu ****/
 header {
   display: flex;
+  top: 0;
   justify-content: space-between;
   align-items: center; /** centrere **/
+  padding: 20px;
 }
 
-/* nav {
+.logo img {
+  width: 50px;
+  height: 50px;
+}
+
+nav {
   display: flex;
   align-items: center;
-} */
+}
 
 .menu {
   display: flex;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .menu li {
   margin-right: 60px;
 }
 
+.menu li:last-child {
+  margin-right: 0;
+}
+
 .menu a {
+  display: block;
   font-family: "Chivo", serif;
   color: var(--primary);
   text-decoration: none;
+  text-align: end;
 }
 
 .menu a:hover {
   color: var(--accent2);
+}
+
+.burger {
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+  display: none;
+}
+
+.burger .line {
+  width: 100%;
+  height: 3px;
+  background-color: var(--primary);
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .menu {
+    display: none;
+  }
+  .burger {
+    display: block;
+  }
 }
 
 /**** forside ****/
@@ -95,7 +133,7 @@ header {
   position: absolute;
   top: 0%;
   left: 10%;
-  aspect-ratio: 350/1080.18;
+  aspect-ratio: 350/1080;
   width: 50%;
 }
 
@@ -111,3 +149,9 @@ header {
   top: 45%;
   left: 35%;
 }
+
+/* .kasse1 {
+  background-color: var(--primary);
+  padding: 2rem;
+  
+} */
