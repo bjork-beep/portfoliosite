@@ -47,11 +47,15 @@ html {
 h1 {
   font-family: "Italiana", serif;
   color: var(--primary);
+  font-size: 4.5rem;
+  font-weight: 600;
 }
 
 h4 {
   font-family: "Italiana", serif;
   color: var(--accent2);
+  font-size: 1rem;
+  text-align: right;
 }
 
 /**** forside ****/
@@ -72,5 +76,7 @@ h4 {
 }
 
 .portfolio {
-  display: grid;
+  position: absolute;
+  top: 45%;
+  left: 35%;
 }
