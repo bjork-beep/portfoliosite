@@ -34,9 +34,43 @@ font-family: "Chivo Mono", serif;
   margin: 0;
   padding: 0;
 }
+img {
+  width: 100%;
+}
 
 html {
   background-color: var(--secondary);
 }
 
-/** forside **/
+/** fonte **/
+
+h1 {
+  font-family: "Italiana", serif;
+  color: var(--primary);
+}
+
+h4 {
+  font-family: "Italiana", serif;
+  color: var(--accent2);
+}
+
+/**** forside ****/
+
+#figur_container1 {
+  position: absolute;
+  top: 0%;
+  left: 10%;
+  aspect-ratio: 350/1080.18;
+  width: 50%;
+}
+
+#figur_sprite1 {
+  width: 100%;
+  height: 100%;
+  background-image: url(images/figur_1.svg);
+  background-size: cover;
+}
+
+.portfolio {
+  display: grid;
+}
