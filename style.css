@@ -1,0 +1,24 @@
+/**** variabler ****/
+:root {
+  /** farver **/
+  --primary: #1b1af5;
+  --secondary: #fffcd1;
+  --tertiary: #454444;
+  --accent1: #d8f4ff;
+  --accent2: #786eff;
+
+  /** spacing **/
+  --space-xxs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2rem;
+  --space-xl: 3rem;
+  --space-xxl: 6rem;
+  --space-xxxl: 10;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
