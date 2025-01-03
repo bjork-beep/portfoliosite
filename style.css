@@ -39,8 +39,21 @@ img {
   width: 100%;
 }
 
-html {
+html,
+body {
   background-color: var(--secondary);
+  height: 100%;
+  margin: 0;
+}
+
+main {
+  flex: 1; /** skubber footeren ned i bunden af siden **/
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
 }
 /** fonte **/
 
@@ -189,9 +202,3 @@ nav {
   top: 45%;
   left: 35%;
 }
-
-/* .kasse1 {
-  background-color: var(--primary);
-  padding: 2rem;
-  
-} */
