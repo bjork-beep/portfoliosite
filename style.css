@@ -18,7 +18,25 @@
   --space-xxxl: 10;
 }
 
+/**** fonte
+h1 og h2:
+font-family: "Italiana", serif;
+
+h3:
+font-family: "Chivo", serif;
+
+p:
+font-family: "Chivo Mono", serif;
+
+****/
+
 * {
   margin: 0;
   padding: 0;
 }
+
+html {
+  background-color: var(--secondary);
+}
+
+/** forside **/
