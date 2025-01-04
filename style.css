@@ -135,7 +135,7 @@ nav {
   height: 20px;
   cursor: pointer;
   display: none;
-  z-index: 1200;
+  z-index: 3000;
 }
 
 .burger .line {
@@ -198,15 +198,10 @@ nav {
 footer {
   background-color: var(--tertiary);
   padding: var(--space-xxl);
-  z-index: 1400;
+  /* z-index: 1400; */
 }
 
 footer h3 {
   color: var(--secondary);
   font-weight: lighter;
 }
-
-/* main {
-  padding-left: var(--space-md);
-  padding-right: var(--space-md);
-} */
