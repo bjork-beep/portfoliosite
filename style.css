@@ -55,11 +55,18 @@ h1 {
 
 h2 {
   font-family: "Italiana", serif;
+  color: var(--primary);
+  font-size: 2rem;
+  padding-top: var(--space-lg);
+  padding-bottom: var(--space-xl);
 }
 
 h3 {
   font-family: "Chivo", serif;
   font-weight: normal;
+  font-size: 1.5rem;
+  padding-top: var(--space-sm);
+  padding-bottom: var(--space-xs);
 }
 
 h4 {
@@ -71,6 +78,7 @@ h4 {
 
 p {
   font-family: "Chivo Mono", serif;
+  padding-bottom: var(--space-xl);
 }
 
 /**** menu ****/
@@ -202,5 +210,3 @@ footer h3 {
   padding-left: var(--space-md);
   padding-right: var(--space-md);
 } */
-
-/**** forside ****/
