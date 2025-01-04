@@ -3,7 +3,8 @@
   /** farver **/
   --primary: #1b1af5;
   --secondary: #fffcd1;
-  --tertiary: #454444;
+  /* --tertiary: #454444; */
+  --tertiary: #1d1d1d;
   --accent1: #d8f4ff;
   --accent2: #786eff;
 
@@ -201,9 +202,12 @@ nav {
 
 footer {
   background-color: var(--tertiary);
-  padding-top: var(--space-xxl);
-  padding-bottom: var(--space-xxl);
+  padding: var(--space-xxl);
   z-index: 1400;
+}
+
+footer h3 {
+  color: var(--secondary);
 }
 
 /**** forside ****/
@@ -215,26 +219,8 @@ footer {
   background-size: cover;
   object-fit: cover;
 }
-
+/* ændres hvis jeg har tid */
 #overskrift {
-}
-
-#figur_container1 {
-  position: absolute;
-  top: 0%;
-  left: 10%;
-  aspect-ratio: 350/1080;
-  width: 50%;
-}
-
-#figur_sprite1 {
-  width: 100%;
-  height: 100%;
-  background-image: url(images/figur_1.svg);
-  background-size: cover;
-}
-
-.portfolio {
   position: absolute;
   top: 45%;
   left: 35%;
