@@ -40,21 +40,8 @@ img {
   width: 100%;
 }
 
-html,
-body {
+html {
   background-color: var(--secondary);
-  height: 100%;
-  margin: 0;
-}
-
-main {
-  flex: 1;
-} /** skubber footeren ned i bunden af siden */
-
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  min-height: 100%;
 }
 
 /** fonte **/
@@ -166,6 +153,7 @@ nav {
 
   .burger.active .menu {
     background-color: var(--primary);
+    z-index: 2000;
   }
 
   nav.active .menu {
@@ -177,7 +165,6 @@ nav {
     left: 0;
     bottom: 0;
     width: 100%;
-    z-index: 1000;
     justify-content: center; /* vertikal */
     align-items: center; /* horisontal */
   }
@@ -210,18 +197,9 @@ footer h3 {
   color: var(--secondary);
 }
 
-/**** forside ****/
+/* main {
+  padding-left: var(--space-md);
+  padding-right: var(--space-md);
+} */
 
-.herosection {
-  aspect-ratio: 350/1080;
-  width: 55%;
-  background-image: url(images/figur_1.svg);
-  background-size: cover;
-  object-fit: cover;
-}
-/* ændres hvis jeg har tid */
-#overskrift {
-  position: absolute;
-  top: 45%;
-  left: 35%;
-}
+/**** forside ****/
