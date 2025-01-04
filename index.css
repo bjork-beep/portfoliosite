@@ -1,3 +1,7 @@
+header {
+  position: fixed; /* fiksere menuen */
+}
+
 .figur1 {
   aspect-ratio: 350/1080;
   width: 55%;

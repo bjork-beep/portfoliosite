@@ -59,7 +59,7 @@ h2 {
 
 h3 {
   font-family: "Chivo", serif;
-  font-weight: lighter;
+  font-weight: normal;
 }
 
 h4 {
@@ -75,7 +75,7 @@ p {
 
 /**** menu ****/
 header {
-  position: fixed; /* fikserer menuen*/
+  /* position: fixed; fikserer menuen */
   display: flex;
   top: 0;
   /* left: 0; */
@@ -195,6 +195,7 @@ footer {
 
 footer h3 {
   color: var(--secondary);
+  font-weight: lighter;
 }
 
 /* main {
