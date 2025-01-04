@@ -83,7 +83,7 @@ p {
 
 /**** menu ****/
 header {
-  /* position: fixed; fikserer menuen */
+  /*position: fixed; fikserer menuen */
   display: flex;
   top: 0;
   /* left: 0; */
@@ -161,7 +161,6 @@ nav {
 
   .burger.active .menu {
     background-color: var(--primary);
-    z-index: 2000;
   }
 
   nav.active .menu {
@@ -175,6 +174,7 @@ nav {
     width: 100%;
     justify-content: center; /* vertikal */
     align-items: center; /* horisontal */
+    z-index: 2000;
   }
 
   nav.active .menu li {

@@ -1,5 +1,6 @@
 header {
   position: fixed; /* fiksere menuen */
+  z-index: 1000;
 }
 
 .figur1 {
@@ -11,14 +12,14 @@ header {
 }
 /* ændres hvis jeg har tid */
 #overskrift {
-  display: flex;
+  /* display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
   width: 100%;
-  text-align: center;
-  /* position: absolute;
+  text-align: center; */
+  position: absolute;
   top: 45%;
   left: 28%;
-  z-index: 1; */
+  z-index: 0;
 }
