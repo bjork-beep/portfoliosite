@@ -47,14 +47,15 @@ body {
 }
 
 main {
-  flex: 1; /** skubber footeren ned i bunden af siden **/
-}
+  flex: 1;
+} /** skubber footeren ned i bunden af siden */
 
 .wrapper {
   display: flex;
   flex-direction: column;
   min-height: 100%;
 }
+
 /** fonte **/
 
 h1 {
@@ -64,6 +65,15 @@ h1 {
   font-weight: 600;
 }
 
+h2 {
+  font-family: "Italiana", serif;
+}
+
+h3 {
+  font-family: "Chivo", serif;
+  font-weight: lighter;
+}
+
 h4 {
   font-family: "Italiana", serif;
   color: var(--accent2);
@@ -71,10 +81,17 @@ h4 {
   text-align: right;
 }
 
+p {
+  font-family: "Chivo Mono", serif;
+}
+
 /**** menu ****/
 header {
+  position: fixed; /* fikserer menuen*/
   display: flex;
   top: 0;
+  /* left: 0; */
+  width: 90%; /** ellers ryger det sidste af menuen ud af skærmen **/
   justify-content: space-between;
   align-items: center; /** centrere **/
   padding: 20px;
@@ -153,7 +170,7 @@ nav {
   nav.active .menu {
     display: flex;
     flex-direction: column;
-    position: absolute;
+    position: fixed; /* sørger for at menuen fylder hele skærmen */
     background-color: var(--primary);
     top: 0;
     left: 0;
@@ -180,7 +197,27 @@ nav {
   }
 }
 
+/**** footer ****/
+
+footer {
+  background-color: var(--tertiary);
+  padding-top: var(--space-xxl);
+  padding-bottom: var(--space-xxl);
+  z-index: 1400;
+}
+
 /**** forside ****/
+
+.herosection {
+  aspect-ratio: 350/1080;
+  width: 55%;
+  background-image: url(images/figur_1.svg);
+  background-size: cover;
+  object-fit: cover;
+}
+
+#overskrift {
+}
 
 #figur_container1 {
   position: absolute;
