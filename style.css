@@ -120,7 +120,7 @@ nav {
 
 .menu a {
   display: block;
-  font-family: "Chivo", serif;
+  font-family: "Chivo Mono", serif;
   color: var(--primary);
   text-decoration: none;
   /* text-align: end; */
